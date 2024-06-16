@@ -1,10 +1,12 @@
 # MolOpt: Autonomous Molecular Geometry Optimization Using Multiagent Reinforcement Learning
 
-<p align="center" width="100%">
+![rlopt_flowchart_molopt](https://github.com/rohitmodee/MolOpt/assets/24433906/01ffabde-9a02-4900-ab3d-a0924ee7bec1)
+
+<!-- <p align="center" width="100%">
     <img width="45%" src="https://www.researchgate.net/publication/373371947/figure/fig1/AS:11431281183664381@1692966932840/The-figure-shows-the-workflow-of-MolOpt-model-The-molecules-structure-is-in-Cartesian.ppm">
     <img width="45%" src="https://pubs.acs.org/cms/10.1021/acs.jpcb.3c04771/asset/images/medium/jp3c04771_0006.gif">
 </p>
-
+ -->
 [**MolOpt**](https://pubs.acs.org/doi/10.1021/acs.jpcb.3c04771) that uses multiagent reinforcement learning (MARL) for autonomous molecular geometry optimization (MGO). Typically MGO algorithms are hand-designed, but MolOpt uses MARL to learn a learned optimizer (policy) that can perform MGO without the need for other hand-designed optimizers. We cast MGO as a MARL problem, where each agent corresponds to a single atom in the molecule. MolOpt performs MGO by minimizing the forces on each atom of the molecule. Our experiments demonstrate the generalizing ability of MolOpt for the MGO of propane, pentane, heptane, hexane, and octane when trained on ethane, butane, and isobutane. In terms of performance, MolOpt outperforms the MDMin optimizer and demonstrates performance similar to that of the FIRE optimizer. However, it does not surpass the BFGS optimizer. The results demonstrate that MolOpt has the potential to introduce innovative advancements in MGO by providing a novel approach using reinforcement learning (RL), which may open up new research directions for MGO. Overall, this work serves as a proof-of-concept for the potential of MARL in MGO.
 
 This repository allows to train and evaluate Molopt for MGO directly in Cartesian coordinates.
