@@ -1,7 +1,7 @@
 # MolOpt: Autonomous Molecular Geometry Optimization Using Multiagent Reinforcement Learning
 
 <p align="center" width="100%">
-    <img width="45%" src="https://pubs.acs.org/cms/10.1021/acs.jpcb.3c04771/asset/images/medium/jp3c04771_0007.gif">
+    <img width="45%" src="https://www.researchgate.net/publication/373371947/figure/fig1/AS:11431281183664381@1692966932840/The-figure-shows-the-workflow-of-MolOpt-model-The-molecules-structure-is-in-Cartesian.ppm">
     <img width="45%" src="https://pubs.acs.org/cms/10.1021/acs.jpcb.3c04771/asset/images/medium/jp3c04771_0006.gif">
 </p>
 
