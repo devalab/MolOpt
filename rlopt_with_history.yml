@@ -1,0 +1,30 @@
+name: rlopt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchaudio==0.9.0
+  - cudatoolkit=10.2
+  - torchvision
+  - pandas
+  - scikit-learn
+  - ase
+  - gpaw
+  - torchani
+  - jupyter
+  - nb_conda
+  - regex
+  - matplotlib
+  - gputil
+  - h5py
+  - rdkit
+  - tensorboard
+  - tqdm
+  - mpi4py
+  - dill
+  - multiprocess
+  - pathos
+  - natsort
+prefix: /home/rohit/anaconda3/envs/rlopt

@@ -1,0 +1,2 @@
+Epoch,mol_id,RL_energy,MDMin_energy,MDMin_initial_vs_optim_RMSD,MDMin_optim_vs_RL_optim_rmsd,MDMin_initial_vs_RL_optim_RMSD,Delta_Energy_eV,Delta_Energy_kcal,Mol_size,Initial_Energy
+1401, 0, -936.571072285593, -936.3185120442316, 0.19878, 0.04322, 0.23869, 0.010952022306394868, 0.25256024136137967, 11, -926.6853024662014
